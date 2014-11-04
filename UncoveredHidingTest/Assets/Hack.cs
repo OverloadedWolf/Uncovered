@@ -1,39 +1,39 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Hide : MonoBehaviour {
+public class Hack : MonoBehaviour {
 	public bool canHack = false;
+	public bool beenHacked = false;
+	public float speed = 2;
+
 	// Use this for initialization
 	void Start () {
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (canHide) {
+		if (canHack) {
 			if(Input.GetKeyUp(KeyCode.R)){
-				Hacking ();
+				Open ();
 			}
 		}
 	}
 	
 	void OnTriggerEnter2D(Collider2D col){
-		if (col.tag == "Hideable") {
+		if (col.tag == "Player") {
 			canHack = true;
 		}
 	}
 	void OnTriggerExit2D(Collider2D col){
-		if (col.tag == "Hideable") {
+		if (col.tag == "Player") {
 			canHack = false;
+			//Close();
 		}
 	}
-	void Hacking(){
-		gameObject.GetComponent<SpriteRenderer>().sprite = darkP;
-		gameObject.transform.Translate(new Vector3(0,.7f,0));
-		canHide = false;
+	void Open(){
+		transform.Translate(new Vector3(0,10f,0));
 	}
-	void UnHide(){
-		gameObject.GetComponent<SpriteRenderer>().sprite = lightP;
-		gameObject.transform.Translate(new Vector3(0,-0.7f,0));
-		isHiding = false;
-	}
+	//void Close(){
+		//transform.Translate(new Vector3(0,-4f,0));
+	//}
 }

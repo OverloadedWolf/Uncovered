@@ -49,6 +49,7 @@
      <Compile Include="Assets\CatchPlayer.cs" />
      <Compile Include="Assets\Hack.cs" />
      <Compile Include="Assets\Hide.cs" />
+     <Compile Include="Assets\ItemPickUp.cs" />
      <Compile Include="Assets\Movement.cs" />
      <Compile Include="Assets\ScientistPath.cs" />
   </ItemGroup>

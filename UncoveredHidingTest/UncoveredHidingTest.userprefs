@@ -1,12 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Hack.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CatchPlayer.cs">
     <Files>
-      <File FileName="Assets\Hack.cs" Line="32" Column="19" />
-      <File FileName="Assets\Hide.cs" Line="1" Column="1" />
-      <File FileName="Assets\Movement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Hack.cs" Line="15" Column="34" />
+      <File FileName="Assets\Hide.cs" Line="16" Column="17" />
+      <File FileName="Assets\Movement.cs" Line="17" Column="37" />
       <File FileName="Assets\ScientistPath.cs" Line="1" Column="1" />
       <File FileName="Assets\CatchPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets\ItemPickUp.cs" Line="27" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
